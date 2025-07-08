@@ -1,0 +1,101 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Shrikhand, serif;
+  color: rgb(125, 90, 90);
+  background-color: white;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+th {
+  width: 120px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+td {
+  padding: 5px;
+}
+
+.time {
+  height: 40px;
+}
+.Event {
+  width: 100px;
+}
+
+td.Event {
+  min-width: 120px;
+  padding: 0.5rem;
+  white-space: normal;     /* allow wrapping */
+  word-break: break-word;  /* break up long words if needed */
+  vertical-align: top;
+  
+}
+
+/* Give proper spacing between lines */
+.Event h6, .Event h5 {
+  line-height: 1.2;        /* restore a comfortable line height */
+  margin: 0.2rem 0;        /* small margin between lines */
+}
+
+.pink {
+  background: rgb(255, 227, 231);
+}
+
+.blue {
+  background: rgb(190, 219, 229);
+}
+
+.green {
+  background: rgb(202, 245, 222);
+} 
+.yellow
+{
+  background: rgb(250, 255, 163);
+
+}
+.purple
+{
+  background: rgb(255, 206, 255);
+}
+
+.orange {
+  background: rgb(255, 223, 186); /* soft pastel orange */
+}
+
+.teal {
+  background: rgb(183, 229, 229); /* light pastel teal */
+}
+
+.lavender {
+  background: rgb(230, 230, 250); /* gentle lavender */
+}
+
+.coral {
+  background: rgb(255, 204, 203); /* soft coral pink */
+}
+
+.mint {
+  background: rgb(204, 255, 229); /* pastel mint green */
+}
+
+.peach {
+  background: rgb(255, 218, 185); /* light peach */
+}
